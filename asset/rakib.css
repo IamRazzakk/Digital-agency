@@ -20,6 +20,12 @@ ul {
     gap: 30px;
     font-size: 25px;
 }
+ul li:hover{
+    background: white;
+    color: black;
+    /* margin: 10px 30px; */
+    border-radius: 5px;
+}
 
 .logo {
     display: flex;
@@ -74,7 +80,7 @@ span {
 
 .btn-primary {
     background-color: red;
-    font: 16px;
+    font-size: 16px;
     padding: 15px 35px;
     color: white;
     border-style: none;
@@ -82,7 +88,24 @@ span {
     border-image: initial;
     margin: 5px;
 }
-
+.btn-primary:hover {
+    background: white;
+    color: black;
+}
+.btn-primary-o{
+    background-color: #fff;
+    font-size: 16px;
+    padding: 15px 35px;
+    color: black;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    margin: 5px;
+}
+.btn-primary-o:hover{
+    background-color: black;
+    color: white;
+}
 /* new div */
 .btn-section {
     background-color: white;
@@ -114,11 +137,12 @@ li {
     background-blend-mode: overlay;
     background-size: cover;
     color: white;
-    height: 100vh;
+    height: 635px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 0,0,100px,0;
+    width: 1349px;
 }
 .author-section{
     display: flex;
@@ -144,8 +168,8 @@ li {
     background-color: white;
     padding: 50px;
     border-radius: 10px;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     color: black;
     text-align: center;
     
@@ -153,12 +177,12 @@ li {
 .icon{
     width: 70px;
 }
-.service-section > h1{
+/* .service-section > h1{
     color: green;
 }
 .service-section > p{
     color: green;
-}
+} */
 .service-document{
     width: 70%;
     font-size: 20px;
@@ -180,12 +204,17 @@ li {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+    padding-top: 20px;
    
+}
+.author-button{
+    text-align: center;
 }
 .author-profile{
     display: flex;
     align-items: center;
     border-right:2px solid red ;
+    padding-top: 10px;
 }
 .btn{
     color: red;
@@ -204,7 +233,98 @@ li {
     padding: 20px;
     border-radius: 10px;
     margin-top: -30px;
+    height: 150px;
+    color: white;
+}
+.appointment-title{
+    font-size: 32px;
+    font-weight: 700;
+    display: inline-flexbox;
+    padding: 20px;
 }
 .appointment-doc{
     width: 50%;
+    padding-right: 10px;
 }
+.blog-container{
+    width: 90%;
+    margin: auto;
+    /* background-color: gray; */
+    margin-top: -30px;
+    padding: 20px;
+}
+.title{
+    text-align: center;
+    color: black;
+    margin: 50px;
+}
+.discription-blog{
+    font-size: 22px;
+    width: 674px;
+    margin: auto;
+    text-align: center;
+    /* display: block; */
+    padding-bottom: 30px;
+    /* padding-top: 10px; */
+}
+.card{
+    width: 350px;
+    height: 430px;
+    /* background-color: black; */
+    /* color: wheat; */
+    box-shadow: 4px 8px 4px gray;
+    border-radius: 10px;
+}
+.blog-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.footer-containerff{
+    height: 444.5px;
+    width: 1349px;
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgb(49, 49, 49), rgb(0, 0, 0));
+    color: white;
+    background-blend-mode: overlay;
+    display: flex;
+   margin: 0,169px,0,169px;
+   justify-content: space-around;
+   align-items: center;
+   border-bottom: 1px solid gray;
+}
+.logo-box{
+    width: 234px;
+}
+.icons{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.footer-title{
+    padding-bottom: 15px;
+}
+.footer-des{
+    padding-top: 5px;
+}
+/* .footer-container{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
